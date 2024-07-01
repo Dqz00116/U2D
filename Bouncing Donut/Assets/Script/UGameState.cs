@@ -60,6 +60,7 @@ namespace Script
                 if (Level > 1)
                 {
                     ChangeState(EGameStatus.Over);
+                    SceneManager.LoadScene("Scenes/Title");    
                     return;
                 }
                 
